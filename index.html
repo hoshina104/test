@@ -19,12 +19,13 @@
         video.srcObject = stream;
         video.play();
   
+        /*
         const w = constraints.video.width, h = constraints.video.height;
         const canvas = document.createElement('canvas');
         canvas.width = w;
         canvas.height = h;
         const context = canvas.getContext('2d');
-        /*
+        
         const timer = setInterval(() => {
           context.drawImage(video, 0, 0, w, h);
           const imageData = context.getImageData(0, 0, w, h);
