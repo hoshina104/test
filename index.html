@@ -17,9 +17,10 @@
       navigator.mediaDevices.getUserMedia(constraints).then((stream) => {
         const video = document.querySelector('video');
         video.srcObject = stream;
+        /*
         video.play();
   
-        /*
+        
         const w = constraints.video.width, h = constraints.video.height;
         const canvas = document.createElement('canvas');
         canvas.width = w;
