@@ -22,8 +22,6 @@ body {
 }
 
 #id_01 {
-  position: absolute;
-  top: 800px; left: 600px;
   border: 0px solid #FFFFFF;
   background-color: #FF0000;
   padding: 10px;
