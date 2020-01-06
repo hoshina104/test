@@ -37,8 +37,8 @@ function errorCallback(err) {
 function draw() {
 //  canvas.width  = window.innerWidth;
 //  canvas.height = window.innerHeight;
-  canvas.width  = window.innerWidth;
-  canvas.height = 640;
+  canvas.width  = 480;
+  canvas.height = 320;
   ctx.drawImage(video, 0, 0);
 
   requestAnimationFrame(draw);
