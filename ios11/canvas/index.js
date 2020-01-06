@@ -46,5 +46,9 @@ function draw() {
  * QRコードの読み取り
  */
 function checkPicture(){
- 
+  const imageData = ctx.getImageData(0, 0, this.width, this.height);
+  const code = jsQR(imageData.data, imageData.width, imageData.height);
+  if (code) {
+      console.log("Found QR code", code, code.data);
+  }
 }
