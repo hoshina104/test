@@ -35,8 +35,10 @@ function errorCallback(err) {
 }
 
 function draw() {
+//  canvas.width  = window.innerWidth;
+//  canvas.height = window.innerHeight;
   canvas.width  = window.innerWidth;
-  canvas.height = window.innerHeight;
+  canvas.height = 640;
   ctx.drawImage(video, 0, 0);
 
   requestAnimationFrame(draw);
