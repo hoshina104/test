@@ -20,3 +20,13 @@ body {
   top: 0; left: 0;
   width: 60%; height: 60%;
 }
+
+.id_01 {
+  border: 0px solid #FFFFFF;
+  background-color: #FF0000;
+  padding: 10px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12pt;
+  color: #FFFFFF;
+  text-align: center;
+}
