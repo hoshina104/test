@@ -13,14 +13,14 @@ body {
 #video {
   display: block;
 }
-
+/*
 #canvas {
   display: block;
   position: absolute;
   top: 0; left: 0;
   width: 60%; height: 60%;
 }
-
+*/
 #id_01 {
   border: 0px solid #FFFFFF;
   background-color: #FF0000;
