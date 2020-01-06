@@ -21,7 +21,7 @@ body {
   width: 60%; height: 60%;
 }
 
-.id_01 {
+#id_01 {
   border: 0px solid #FFFFFF;
   background-color: #FF0000;
   padding: 10px;
